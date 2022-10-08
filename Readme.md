@@ -17,7 +17,9 @@ TIL Name : not css, react setstate, ....
 ### Goal
 
 - Algo 실력 상승
+
 - 전반적인 전공자 이상의 CS 지식
-- 진로 설정
-- 개인 토이 프로젝트 제작 및 배포
-- Docker 등 다양한 기본 프로그램 사용법 숙지
+
+- 개인 토이 프로젝트 제작 
+
+  
