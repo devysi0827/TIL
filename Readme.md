@@ -9,7 +9,7 @@ study type : fe, be, cs, algo, etc
 TIL Name : not css, react setstate, ....
 ```
 
-- start time : 2022.06.14 ~ 
+- start time : 2022.09.01 ~ 
 - 주말 휴식, 휴일은 쉬지 않음.
 
 
