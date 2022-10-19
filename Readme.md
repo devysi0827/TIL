@@ -1,6 +1,6 @@
 # Readme
 
-### 1Day 1TIL
+### 1Day 1TIL1
 
 - commit rule : [study type] + "TIL Name"
 
