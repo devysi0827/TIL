@@ -6,7 +6,7 @@
 
 ```
 study type : fe, be, cs, algo, etc
-TIL Name : not css, react setstate, ....
+TIL Name : not css, react setstate
 ```
 
 - start time : 2022.09.01 ~ 
@@ -22,4 +22,4 @@ TIL Name : not css, react setstate, ....
 
 - 개인 토이 프로젝트 제작 
 
-  
+
