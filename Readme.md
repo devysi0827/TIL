@@ -1,4 +1,4 @@
-# Readme
+# Readme1
 
 ### 1Day 1TIL
 
@@ -21,5 +21,4 @@ TIL Name : not css, react setstate
 - 전반적인 전공자 이상의 CS 지식
 
 - 개인 토이 프로젝트 제작 
-
 
