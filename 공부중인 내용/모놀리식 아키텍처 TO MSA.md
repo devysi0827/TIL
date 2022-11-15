@@ -53,4 +53,6 @@
 
 ### 참고문서
 
-기술블로그 : https://mangkyu.tistory.com/88
+기술블로그, 이미지 출저 : https://mangkyu.tistory.com/88
+atlassian, Monolithc vs MSA : https://www.atlassian.com/ko/microservices/microservices-architecture/microservices-vs-monolith
+it daily, MSA vs Agile : http://www.itdaily.kr/news/articleView.html?idxno=208378
