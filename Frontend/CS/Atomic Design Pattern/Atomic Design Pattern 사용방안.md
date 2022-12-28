@@ -12,6 +12,10 @@
 
 ![image-20221227235637063](C:\Users\sell\AppData\Roaming\Typora\typora-user-images\image-20221227235637063.png)
 
+- HTML 태그에 가까운 ATOM을 만듭니다. 
+- ATOM을 이용하여 조금 더 복잡한 MOLECULES를 만듭니다.
+- ATOM과 MOLECULES를 이용하여서 ORGANISMS
+
 
 
 ### 문제점 : 잘못된 사용법
