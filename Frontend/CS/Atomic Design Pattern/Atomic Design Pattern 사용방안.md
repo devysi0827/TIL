@@ -14,7 +14,9 @@
 
 - HTML 태그에 가까운 ATOM을 만듭니다. 
 - ATOM을 이용하여 조금 더 복잡한 MOLECULES를 만듭니다.
-- ATOM과 MOLECULES를 이용하여서 ORGANISMS
+- ATOM과 MOLECULES를 이용하여서 ORGANISMS을 만듭니다.
+- ORGANISMS를 이용하여 TEMPLATES을 구성합니다.
+- TEMPLATES 안에 이하 여러 원소를 배치함으로서 PAGE를 완성합니다.
 
 
 
