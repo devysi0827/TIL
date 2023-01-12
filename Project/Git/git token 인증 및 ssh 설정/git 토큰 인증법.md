@@ -2,8 +2,6 @@
 
 ### Git push 시 생기는 password 문제
 
-![Git 토큰 인증법](git 토큰 인증법.assets/Git 토큰 인증법.png)
-
 - 문제점: push를 할 때 username과 password를 물어보는데 git username과 password를 사용할시 에러가 발생한다
 - 문제의 원인: 기존의 password 인증 대신 token 인증으로 인증법이 바뀌어서 password인증은 더이상 인증되지 않는다.
 - 해결방법
@@ -12,7 +10,8 @@
 
 ![Git 토큰 인증법1](git 토큰 인증법.assets/Git 토큰 인증법1.png)
 
-2. ge![Git 토큰 인증법2](Git 토큰 인증법.assets/Git 토큰 인증법2.png)nerate new token 클릭
+2. generate new token 클릭
+   ![Git 토큰 인증법2](Git 토큰 인증법.assets/Git 토큰 인증법2.png)
 
    ![Git 토큰 인증법3](git 토큰 인증법.assets/Git 토큰 인증법3.png)
 
