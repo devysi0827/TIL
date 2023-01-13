@@ -30,8 +30,7 @@ git remote update
 git branch -a 
 ```
 
-![image-20230112231451393](git remote branch 가져오기.assets/image-20230112231451393.png)
-
+<img src='git remote branch 가져오기.assets/image-20230112231451393.png'/>
 하양 - 로컬브런치, 초록 - 현재브런치, 빨강 - 원격브런치
 
 없다면, 팀원이 원격에 올리지 않았는 지 확인해보자 
