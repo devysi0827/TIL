@@ -1,24 +1,35 @@
-# Readme1
-
-### 1Day 1TIL
-
-- commit rule : [study type] + "TIL Name"
-
-```
-study type : fe, be, cs, algo, etc
-TIL Name : not css, react setstate
-```
-
-- start time : 2022.09.01 ~ 
-- 주말 휴식, 휴일은 쉬지 않음
-
-
+# Readme
 
 ### Goal
 
 - Algo 실력 상승
 
-- 전반적인 전공자 이상의 CS 지식
+- 전반적인 CS 지식
 
-- 개인 토이 프로젝트 제작 
+- 개인 토이 프로젝트를 통한 실전 경험 
 
+
+
+### Commit Rule
+
+애매한 것은 위에 있는 분류에 속하면 해당 것으로 합류 따라감. 
+
+- algo : 알고리즘 관련
+
+- cs : 컴퓨터 과학 관련
+
+- project : 프로젝트 관련 (사이드 프로젝트 개발, 버그/에러 처리)
+
+- fe : 프론트엔드 관련 기술스택 또는 세미나 내용
+
+- be : 백엔드 관련 기술스택 또는 세미나 내용
+
+- chore : 사소한 것 기타 등등
+
+
+
+### 기록
+
+- 시작 : 22.01.27 (재시작 : 22.09.01)
+
+- 리드미 수정 : 23.01.13
