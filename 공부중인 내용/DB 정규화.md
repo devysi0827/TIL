@@ -19,3 +19,5 @@
 ### 참고문서
 
 기술블로그 : https://dev-coco.tistory.com/62
+
+https://terms.naver.com/entry.naver?docId=3431240&cid=58430&categoryId=58430
