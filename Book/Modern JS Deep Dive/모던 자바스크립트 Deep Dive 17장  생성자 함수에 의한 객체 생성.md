@@ -67,4 +67,24 @@ const circle1 = new Circle(5) //Circle { radius: 5, getDiameter: [Function (anon
 
 여기서 일반 함수라면, [[Call]]이 호출되고, new 연산자와 함께라면, 생성자 함수로서 호출되면 내부 매서드 [[Construct]]가 호출된다.
 
-이렇게 내부 메서드 [[Call]]을 갖는 함수 객체를 calllable이라 하며, 내부 메서드 [[Construct]]를 갖는 함수 객체를 constructor, 갖지 않는 함수를 non-constructor이라 부른다. 
+[사진사진]
+
+이렇게 내부 메서드 [[Call]]을 갖는 함수 객체를 calllable이라 하며, 내부 메서드 [[Construct]]를 갖는 함수 객체를 constructor, 갖지 않는 함수를 non-constructor이라 부른다.  이 때, new 연산자로 함수를 호출하면 [[Construct]]가 호출되고, 일반 함수로 호출하면 [[Call]]이 호출된다.
+
+constructor의 예시로는 함수 선언문, 함수 표현식, 클래스(클래스는 함수다)
+
+non-constructor의 예시로는 메서드(ES6 축약표) ,화살표함수
+
+
+
+new.target
+
+생성자 함수가 new 없이 호출되는 것을 방지하기 위해 ES6에서는 new.target을 지원한다.
+
+new.target은 this와 유사하게 construct인 모든 함수 내부에서 암묵적인 지역변수와 같이 사용되며 메타 프로퍼티라 부른다.
+
+
+
+new 연산자와 함께 생성장 함수로서 호출되면 함수 내부의 new.target은 함수 자신을 가리킨다.
+
+※ 일반 함수의 new.target은 undefined다.
