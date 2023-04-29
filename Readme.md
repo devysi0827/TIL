@@ -38,7 +38,19 @@
 
 **[3월]**
 
-- programmers : 기초부터 풀기, 모르는 부분 공식문서 기반으로 정리하기
-- book : modern js deep dive 완독하기
-- cs : 정보처리기사 실기
-- project : "벚꽃 보러 가지 않을래?" / 회사에서 배운 것 정리
+- programmers : 기초부터 풀기, 모르는 부분 공식문서 기반으로 정리하기 (진행중)
+
+- book : modern js deep dive 완독하기 (진행중)
+
+- cs : 정보처리기사 실기 (실패)
+
+- project : "벚꽃 보러 가지 않을래?" / 회사에서 배운 것 정리 (완료)
+
+  
+
+**[4월]**
+
+- programmers : 기초부터 풀기, 모르는 부분 공식문서 기반으로 정리하기 (진행중)
+- book : modern js deep dive 완독하기 (진행중)
+- cs : 면접준비
+
