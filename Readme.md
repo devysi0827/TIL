@@ -53,4 +53,5 @@
 - programmers : 기초부터 풀기, 모르는 부분 공식문서 기반으로 정리하기 (진행중)
 - book : modern js deep dive 완독하기 (진행중)
 - cs : 면접준비
+- project : 실력부족으로 인하여 하나 더 필요함.
 
