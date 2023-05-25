@@ -8,18 +8,32 @@
 
 
 
-### For
+### 동일배열 체크하는 법
 
 ```
 ```
 
 
 
-### IF
+### stack, queue 직접구현
 
 ```
 
 ```
+
+
+
+### 기초 알고리즘
+
+```
+two-pointer
+dfs
+bfs
+binary search
+순열 / 조합
+```
+
+
 
 
 
@@ -27,17 +41,21 @@
 
 ```
 나눗셈(소수) : / 
-반올림 : round() , 0.5 기준
-올림 : ceil()
-내림 : parseInt(), Math.floor()
+반올림 : Math.round() , 0.5 기준
+올림 : Math.ceil()
+내림 : parseInt(문자열), Math.floor()
 나머지 : %
+
+- 배열 내 최소/ 최대
+Math.min(...b)
+Math.max(...b)
 ```
 
 
 
 ### DICT
 
-```
+```js
 var dictObject = {}
 / Dictionary 추가, 제거
 dictObject['elephant'] = '코끼리'; // 추가
@@ -69,7 +87,7 @@ var lastKey = Object.keys(dictObject)[Object.keys(dictObject).length - 1]
 
 ```
 tostring()
-
+parseInt()
 ```
 
 
@@ -79,12 +97,13 @@ tostring()
 ```
 push = append
 pop = pop
-popleft = shift
-reverese = 뒤집기
+shift = popleft
+reverese = reverse
 
 
 from = lambda
-Array.from([1, 2, 3], x => x + x)
+Array.from([1, 2, 3], x => x + x) : 유사배열객체를 배열로 만들어줌
+[1,2,3].map(x => x + x) : 유사객체에서는 사용불가
 ```
 
 
@@ -116,10 +135,6 @@ var c = b.join(''"); // 15830
 var a = 15830;
 var b = a.toString().split("");  // [1, 5, 8, 3, 0]
 a.toString().split("").map(Number) // 숫자로 변환
-
-- 최소/ 최대
-Math.min(...b)
-Math.max(...b)
 
 - and = &&, or = ||
 - false, true
