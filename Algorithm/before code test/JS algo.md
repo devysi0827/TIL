@@ -11,7 +11,25 @@
 ### 동일배열 체크하는 법
 
 ```
+- JSON.stringfy
 ```
+
+
+
+### 얇은 복사, 깊은 복사
+
+```
+```
+
+
+
+### 이중배열 선언
+
+```
+const arr = new Array(n).fill(null).map(() => new Array(n).fill(0))
+```
+
+
 
 
 
