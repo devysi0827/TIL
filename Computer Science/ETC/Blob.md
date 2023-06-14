@@ -48,6 +48,6 @@ reader.readAsArrayBuffer(blob);
 
 ### 참고문서
 
-블로그 : https://sambalim.tistory.com/94 [삼바의 성장 블로그]
+블로그 : https://sambalim.tistory.com/94 
 
 MDN: https://developer.mozilla.org/ko/docs/Web/API/Blob
