@@ -41,8 +41,8 @@
 
 **[4월-6월]**
 
-- programmers : 기초부터 풀기, 모르는 부분 공식문서 기반으로 정리하기 (일부 완료)
-- book : modern js deep dive 완독하기 (일부 완료)
-- cs : 면접준비 (일부 완료)
+- programmers : 기초부터 풀기, 모르는 부분 공식문서 기반으로 정리하기 (완료)
+- book : modern js deep dive 완독하기 (완료)
+- cs : 면접준비 (완료)
 - project : 실력부족으로 인하여 하나 더 필요함. (완료)
 
