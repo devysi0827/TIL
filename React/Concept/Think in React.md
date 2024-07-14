@@ -26,7 +26,7 @@ JSON이 잘 구조화되어있다면, UI와 데이터 모델이 일치할 것입
 
 
 
-![image-20240711004404395](C:\Users\sell\Desktop\TIL\React\Concept\assets\image-20240711004404395.png)
+![image-20240715012107668](./assets/image-20240715012107668.png)
 
 
 
