@@ -18,7 +18,7 @@
 
 해시함수의 예시 (Code States)
 
-![image-20240929231848159](C:/Users/sell/AppData/Roaming/Typora/typora-user-images/image-20240929231848159.png)
+![image-20240929231848159](./assets/image-20240929231848159.png)
 
 5로 나누었을 때, 나머지를 취하는 해시 함수로 0~4의 해시값을 반환한다.
 
@@ -36,7 +36,7 @@
 
 
 
-![image-20240929232314168](C:/Users/sell/AppData/Roaming/Typora/typora-user-images/image-20240929232314168.png)
+![image-20240929232314168](./assets/image-20240929232314168.png)
 
 
 
@@ -68,7 +68,7 @@
 
 
 
-### 안정 해시 (Consistent Hashing
+### 안정 해시 (Consistent Hashing)
 
 
 
