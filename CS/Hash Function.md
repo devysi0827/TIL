@@ -56,9 +56,37 @@
 
 
 
+### 해시 충돌
+
+1. 분리 연결법 (Separate Chaining)
+
+![image-20241003235253995](./assets/image-20241003235253995.png)
+
+- 추가적인 메모리를 사용하여, 데이터의 주소를 저장한다. 이 방식을 사용 
+
+
+
+2. 개방 주소법 (Open Addressing)
+
+   ![image-20241003235345019](./assets/image-20241003235345019.png)
+
+
+
+
+
+
+
 ### 해시 테이블
 
+![undefined](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/2880px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
 
+해시 함수를 사용하는 대표적인 예시로 해시테이블이 있다. 해시 테이블은 해시 함수를 이용하여  key-value 형태로 저장하는 자료 구조이다.
+
+해시 함수를 사용하여  색인(index)을 버킷(bucket)이나 슬롯(slot)의 배열로 계산한다.
+
+해시 함수를 1회 실행시켜서 찾으면 되므로 평균 시간 복잡도가 O(1)이 나온다.
+
+(단, 해시 충돌이 나오면 시간 복잡도가 O(n)까지 상승할 수도 있어서 해시 충돌이 일어나지 않게 적절한 확장이 중요하다.)
 
 
 
@@ -80,3 +108,7 @@
 
 - [코드 스테이츠- 블록체인 해시함수](https://www.codestates.com/blog/content/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98)
 - [위키백과 - 해시 함수](https://ko.wikipedia.org/wiki/%ED%95%B4%EC%8B%9C_%ED%95%A8%EC%88%98)
+
+- [위키백과 - 해시 테이블](https://ko.wikipedia.org/wiki/%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)
+
+- [티스토리블로그 - 해시테이블](https://mangkyu.tistory.com/102)
