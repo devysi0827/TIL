@@ -2,9 +2,11 @@
 
 React 철학
 
-React fiber
+- https://github.com/reactjs/react-basic
 
 React portal
+
+- 자식을 DOM의 다른 부분으로 렌더링하 (부모에서 독립!)
 
 React 18,19 변경점
 
@@ -12,9 +14,11 @@ ref = native dom을 조작함.
 
 
 
-shouldComponentUpdate
-
 hydrateRoot
+
+- 서버에서 SSR된 부분은 React 및 HTML과 연결하는 작업
+
+Error boundary
 
 
 
@@ -54,14 +58,15 @@ hydrateRoot
 - 리액트의 렌더링에 대해 아나요?
   - 상태 변화 -> VDOM 반영 -> diffing -> dom 업데이트 -> 렌더링
   - batching, useMemo,useCallback 등으로 렌더링 최적화 
-  - key가 동일 할 때, 렌더링을 생략함
+  - key가 동일 할 때, 렌더링을 생략함 (shouldComponentUpdate)
 
 - 리액트 파이버에 대해서 아나요?
   - 리액트가 vdom을 활용하여 증분 렌더링을 적용 하는 재조정 엔징입니다.
+  - fiber = 작업 내용을 담은 js 객체
 - 리액트 파이버 트리
-  - 
+  - 리액트 vdom 과 같이 변경사항에 대한 내용이 담긴 트리로 알고 있습니다.
 - 리액트 파이버와 DOM, Virtual DOM의 관계
-  - 
+  - vDOM에 변경사항을 담은 트리를 생성하고, 이를 실제 돔과 비교하여 필요한 부분을 계산한 뒤 적용합니다.
 - 렌더 단계와 커밋 단계에 대해 아나요?
   - Render 단계: JSX 선언 또는 `React.createElement()`를 통해 일반 객체인 Reat 엘리먼트를 생성한다.
   - Reconcile 단계: 이전에 렌더링된 실제 DOM 트리와 새로 렌더링할 React 엘리먼트를 비교하여 변경점을 적용한다.
@@ -73,9 +78,8 @@ hydrateRoot
 [React 클래스 vs 함수형]
 
 - ~~React에서 함수 컴포넌트와 클래스 컴포넌트의 차이 🔥~~
-  - 
 - 리액트에서 함수형 컴포넌트라고 부르지 않고 함수 컴포넌트라고 부르는 이유가 무엇인가요 🔥
-  - 
+  - 리액트는 엄밀히 말하면 순수함수가 아니며 함수형 프로그래밍이 아니기 때문에
 
 
 
@@ -89,7 +93,9 @@ hydrateRoot
 [불변성]
 
 - React에서 state의 불변성을 유지하라는 말이 있는데 이에 대해 설명해달라 🔥
+  - 상태 변경 등 추적을 단순화하고 비교를 편하게하여 버그를 최소화하기 위하여
 - 리듀서 내부에서 불변성을 지키는 이유는? 전개 연산자의 단점을 해결할 수 있는 방법은 무엇인가
+  - Props, state, 부모 컴포넌트가 리렌더링 될 때 나옴
 
 
 
@@ -98,3 +104,9 @@ hydrateRoot
 svelet - [better vdom](https://svelte.dev/blog/virtual-dom-is-pure-overhead)
 
 naverD2 - [fiber 분석 ](https://d2.naver.com/helloworld/2690975)
+
+React github - https://github.com/facebook/react/blob/c78464f8ea9a5b00ec80252d20a71a1482210e57/src/renderers/shared/shared/shouldUpdateReactComponent.js#L25-L43
+
+https://github.com/facebook/react/blob/e43aaab2547870bc80c0b778604c5ee55b1d87f0/src/renderers/shared/stack/reconciler/ReactCompositeComponent.js#L1082-L1087
+
+codedamn - https://codedamn.com/news/reactjs/react-fiber-architecture
